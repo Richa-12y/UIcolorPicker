@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif !important;
+  /* background: #e8e8f3; */
+  margin:0;
+  padding:0;
+  outline: none;
+  box-sizing: border-box;
+}
+body{
+     width:100vw;
+     height:100vh;
+     background-color: black;
+     cursor: pointer;
+}
+
+.main-container{
+     /* background-color: red; */
+     width: 100%;
+     height: 100%;
+     display: flex;
+     flex-direction:column;
+     align-items: center;
+}
+
+.desc-container{
+     background-color:black;
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content:space-between;
+     align-items: center;
+     padding: 0.8em;     
+
+}
+.title{
+     font-size: 2em;
+     font-weight: 700;
+     background: transparent;
+color: silver;
+font-family: "Paytone One";
+text-shadow: 0 13.36px 8.896px #413b30, 0 2px 1px rgb(173, 169, 169);
+     
+}
+[alt="logo"]{
+     width: 100px;
+     height: 100px;
+     object-fit: cover;
+     border-radius: 50%;
+     box-shadow: 7px 7px 15px rgba(109, 111, 116, 0.15),
+       -7px -7px 20px rgb(23, 21, 21),
+       inset 0px 0px 4px rgba(46, 45, 45, 0.2),
+       inset 7px 7px 15px rgba(55, 84, 170, 0),
+       inset -7px -7px 20px rgba(255, 255, 255, 0),
+       0px 0px 4px rgba(255, 255, 255, 0) !important;
+      
+}
+
+.palette {
+     width: auto;
+     height: auto;
+     display: flex;
+     flex-wrap: wrap;
+     max-width: 600px;
+     background: black;
+     align-items: center;
+     justify-content: center;
+     padding: 10px;
+     border-radius: 10px;
+     margin: 40px;
+       box-shadow: 7px 7px 15px rgba(109, 111, 116, 0.15),
+       -7px -7px 20px rgb(23, 21, 21),
+       inset 0px 0px 4px rgba(46, 45, 45, 0.2),
+       inset 7px 7px 15px rgba(55, 84, 170, 0),
+       inset -7px -7px 20px rgba(255, 255, 255, 0),
+       0px 0px 4px rgba(255, 255, 255, 0) !important;
+      
+   }
+   
+   .palette-color{
+     width: 100px;
+     height: 100px;
+     background:black;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 14px;
+     border-radius: 50%;
+       box-shadow: 7px 7px 15px rgba(109, 111, 116, 0.15),
+       -7px -7px 20px rgb(56, 52, 52),
+       inset 0px 0px 4px rgba(135, 132, 132, 0.2),
+       inset 7px 7px 15px rgba(55, 84, 170, 0),
+       inset -7px -7px 20px rgba(255, 255, 255, 0),
+       0px 0px 4px rgba(255, 255, 255, 0) !important;
+     cursor: pointer;
+     color: #e8e8f3;
+     font-size: 1em;
+     font-weight: 700;
+   }
+   
+   .palette-color:hover{
+     cursor: pointer;
+     color: green;
+     background:rgb(56, 55, 55);
+     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+   }
+   .copiedText{
+    display: none;
+    
+   }
+   .copiedText-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin: auto;
+    font-size: 1em;
+    text-transform: uppercase;
+    border-radius: 10%;
+    box-shadow: 7px 7px 15px rgba(109, 111, 116, 0.15),
+    -7px -7px 20px rgb(56, 52, 52),
+    inset 0px 0px 4px rgba(135, 132, 132, 0.2),
+    inset 7px 7px 15px rgba(55, 84, 170, 0),
+    inset -7px -7px 20px rgba(255, 255, 255, 0),
+    0px 0px 4px rgba(255, 255, 255, 0) !important;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 1rem;
+  text-shadow: -15px 5px 20px #222223;
+
+   }
+  
+   .colorName-container{
+    color: #e8e8f3;
+    font-size: 1.5em;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    padding-left: 0.3em;
+   }
+   .colorName-container>span:hover{
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: green;
+   }
+   
